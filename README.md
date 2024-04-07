@@ -95,6 +95,7 @@ Development was assisted by the following resources:
  - Installation/usage documentation for dotenv package (https://www.npmjs.com/package/dotenv)
  - Installation/usage documentation for Express.js package (https://www.npmjs.com/package/express)
  - Sequelize core concepts documentation (https://sequelize.org/docs/v6/category/core-concepts/_)
+ - Understanding the difference between CRUD and REST operations (https://www.strongdm.com/what-is/crud-vs-rest)
 
 ## Contact
 To contact the owner of this repo, OrganicClick, please reach out via OrganicClick@exampleemail.com
