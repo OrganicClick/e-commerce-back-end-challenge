@@ -93,6 +93,7 @@ Development was assisted by the following resources:
  - Sequelize documentation, including installation and usage (https://www.npmjs.com/package/sequelize)
  - Setting Up a Database and Seed File (https://medium.com/@shannen.ye/setting-up-a-database-and-seed-file-7e73fe2a9fe6)
  - Installation/usage documentation for dotenv package (https://www.npmjs.com/package/dotenv)
+ - Installation/usage documentation for Express.js package (https://www.npmjs.com/package/express)
 
 
 ## Contact
