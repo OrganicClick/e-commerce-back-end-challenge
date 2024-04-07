@@ -15,7 +15,7 @@
 
 ## Description
 
-This project is part of the SQL module and involves creating an Employee Tracker application using SQL databases. The Employee Tracker allows users to manage a company's employee database by performing various operations such as viewing employees, roles, and departments, adding new employees, updating employee roles, and deleting employees.
+This project involves building the back end for an e-commerce site using Express.js API and Sequelize to interact with a MySQL database. The application is designed to simulate the functionality of an e-commerce platform by implementing models for products, categories, tags, and product tags.
 
 ## User Story
 AS A manager at an internet retail company
@@ -73,7 +73,7 @@ MySQL
 
 MySQL2 Package
 
-dotenv package
+Dotenv package
 
 JavaScript
 
@@ -81,6 +81,7 @@ Git/GitHub
 
 Insomnia
 
+Express.js
 
 ## Credits
 Development was assisted by the following resources:
