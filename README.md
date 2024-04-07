@@ -96,6 +96,7 @@ Development was assisted by the following resources:
  - Installation/usage documentation for Express.js package (https://www.npmjs.com/package/express)
  - Sequelize core concepts documentation (https://sequelize.org/docs/v6/category/core-concepts/_)
  - Understanding the difference between CRUD and REST operations (https://www.strongdm.com/what-is/crud-vs-rest)
+ - Best practices for for REST API design, covers routing syntax as well (https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/)
 
 ## Contact
 To contact the owner of this repo, OrganicClick, please reach out via OrganicClick@exampleemail.com
