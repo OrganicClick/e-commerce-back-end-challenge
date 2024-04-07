@@ -94,7 +94,7 @@ Development was assisted by the following resources:
  - Setting Up a Database and Seed File (https://medium.com/@shannen.ye/setting-up-a-database-and-seed-file-7e73fe2a9fe6)
  - Installation/usage documentation for dotenv package (https://www.npmjs.com/package/dotenv)
  - Installation/usage documentation for Express.js package (https://www.npmjs.com/package/express)
-
+ - Sequelize core concepts documentation (https://sequelize.org/docs/v6/category/core-concepts/_)
 
 ## Contact
 To contact the owner of this repo, OrganicClick, please reach out via OrganicClick@exampleemail.com
