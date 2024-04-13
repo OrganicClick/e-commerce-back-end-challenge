@@ -71,4 +71,30 @@ router.delete('/:id', async (req, res) => {
   }
 });
 
+router.post('/:tagId/products/:productId', async (req, res) => {
+  try {
+    // Extract tag ID and product ID from the URL parameters
+    const tagId = req.params.tagId;
+    const productId = req.params.productId;
+
+    // Find the tag and product by their IDs
+    const tag = await Tag.findByPk(tagId);
+    const product = await Product.findByPk(productId);
+
+    // If either the tag or product doesn't exist, return an error
+    if (!tag || !product) {
+      return res.status(404).json({ error: 'Tag or product not found' });
+    }
+
+    // Associate the tag with the product using ProductTag model
+    await ProductTag.create({ tag_id: tagId, product_id: productId });
+
+    // Send a success response
+    res.json({ message: 'Tag associated with product successfully' });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: 'Server error' });
+  }
+});
+
 module.exports = router;
