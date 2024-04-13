@@ -12,6 +12,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(routes);
 
 // sync sequelize models to the database, then turn on the server
-app.listen(PORT, () => {
+// Sequelize.sync added to ensure that database schema stays up-to-date with Sequelize models
+sequelize.sync({ force: false }).then(() => {
+ app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}!`);
-});
+  });
+})
