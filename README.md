@@ -37,13 +37,22 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Installation
 
-1. Clone the repository to your local machine using the following command:
+1. Clone  the repo from GitHub by running:
+    -git clone git@github.com:OrganicClick/e-commerce-back-end-challenge.git
+
+2. Navigate into the project directory by running:
+    -cd e-commerce-backend-challenge
+
+3. Create a .env file and add your MYSQL_USER, MYSQL_PASSWORD, and DB_NAME on a new line.
+
+4. Run `npm install` to install all dependencies.
 
 
 ## Usage
 
-1.
 
+
+5. 
 
 ## Contributing
 If you have suggestions or contributions to add, please follow the guidelines listed below. Pull requests will be reviewed in the order that they are received.
