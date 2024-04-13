@@ -99,6 +99,7 @@ Development was assisted by the following resources:
  - Best practices for for REST API design, covers routing syntax as well (https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/)
  - ChatGPT used to assist with syntax of RESTful API routing (https://chat.openai.com/)
  - Referenced for troubleshooting issues related to the order of dropping tables causing errors when trying to run "npm run seed" (https://www.sqlines.com/sql-server/drop_references#:~:text=In%20SQL%20Server%2C%20you%20cannot,or%20remove%20foreign%20key%20constraints.)
+ - Referenced for creation of code needed in server.js to sync the Sequelize models to the MYSQL database on server start (https://sequelize.org/docs/v6/core-concepts/model-basics/#:~:text=A%20model%20can%20be%20synchronized,model%20in%20the%20JavaScript%20side.)
 
 ## Contact
 To contact the owner of this repo, OrganicClick, please reach out via OrganicClick@exampleemail.com
