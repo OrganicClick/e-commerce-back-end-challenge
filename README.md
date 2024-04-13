@@ -50,9 +50,20 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Usage
 
+1. First, access mySQL and  run the following code to create the database and tables:
+    - CREATE  DATABASE ecommerce_db;
+    - USE ecommerce_db;
+    - SOURCE db/schema.sql;
 
+2. Exit mySQL to re-enter the CLI
 
-5. 
+3. To seed the database, run `npm run seed`. This will populate your database with test data.
+
+4. To start the  server, run `npm start`. The server should now be listening at http://localhost:3001
+
+5. Open the Insomnia application and enter http://localhost:3001 as the base URL
+
+6. You should now be free to make GET, POST, PUT, and DELETE requests to the specified endpoints as outlined in the source code.
 
 ## Contributing
 If you have suggestions or contributions to add, please follow the guidelines listed below. Pull requests will be reviewed in the order that they are received.
@@ -94,7 +105,8 @@ Express.js
 
 ## Credits
 Development was assisted by the following resources:
- - Xpert Learning Assistant provided by the GWU Coding Boot Camp
+ - Xpert Learning Assistant provided by the GWU Coding Boot Camp. Provided general guidance and assistance with Installation
+   instructions and Usage instructions
  - Initial file architecture suggested by Xpert Learning Assistant
  - Project guidelines, initial screenshots, reference mock-up, and accepted terms of submission provided by GWU Coding Boot Camp
  - Starter code provided by GWU Coding Boot Camp, the contents of the Develop folder(https://github.com/coding-boot-camp/fantastic-umbrella)
