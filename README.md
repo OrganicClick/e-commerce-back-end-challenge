@@ -65,6 +65,8 @@ THEN I am able to successfully create, update, and delete data in my database
 
 6. You should now be free to make GET, POST, PUT, and DELETE requests to the specified endpoints as outlined in the source code.
 
+** NOTE: There are still some problems with getting the 'npm run seed' script to work. To fix this, you may have to restart the server or directly run "node seeds/index.js" in the CLI to get around this error. 
+
 ## Contributing
 If you have suggestions or contributions to add, please follow the guidelines listed below. Pull requests will be reviewed in the order that they are received.
 - Fork the repository.
