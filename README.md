@@ -81,7 +81,7 @@ This challenge is provided under the MIT License. See the [LICENSE](LICENSE) fil
 
 Please click the following link to view a video walkthrough of how to use the application:
 
-[Link to Video Walkthrough] 
+[Link to Video Walkthrough] (https://drive.google.com/file/d/1SdgZek0ZW3dsgrc3xSwEYPMXRhlle-Eu/view)
 
 
 ## Technologies Used
